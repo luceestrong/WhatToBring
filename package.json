@@ -20,11 +20,13 @@
   "dependencies": {
     "angular": "^1.6.3",
     "body-parser": "^1.17.2",
+    "bootstrap": "^4.5.3",
     "express": "^4.15.0",
     "jquery": "^3.1.1",
     "mongoose": "^4.8.6",
     "mysql": "^2.13.0",
     "react": "^15.4.2",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^15.4.2"
   }
 }

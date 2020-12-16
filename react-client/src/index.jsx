@@ -1,23 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
-import List from './components/List.jsx';
+import QueryForm from './components/QueryForm.jsx';
+import RecipeList from './components/RecipeList.jsx';
+import sampleData from './sampledata.jsx';
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: ['hi, test']
-    }
-  }
 
+    };
+  }
 
   render () {
-    return (<div>
-      <h1>Item List</h1>
-      <List items={this.state.items}/>
-    </div>)
+    return (
+      <Container>
+        <Row>
+          <Col>
+            <h1>What to Bring</h1>
+          </Col>
+        </Row>
+      </Container>
+    );
   }
 }
-
 ReactDOM.render(<App />, document.getElementById('app'));
