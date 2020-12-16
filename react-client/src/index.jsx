@@ -19,7 +19,9 @@ class App extends React.Component {
       <Container>
         <Row>
           <Col>
-            <h1>What to Bring</h1>
+            <div>
+              <h1>What to Bring</h1>
+            </div>
           </Col>
         </Row>
       </Container>
