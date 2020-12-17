@@ -4,16 +4,16 @@ import RecipeList from './RecipeList.jsx';
 import MyRecipes from './MyRecipes.jsx';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-const MainPage = ({hasRecipes, recipes, myRecipes})=> {
+const MainPage = ({handleFormChange, handleFormSubmit, mealType, prepTime, intolerances, hasRecipes, recipes, myRecipes})=> {
   return (
     <>
       <Row>
-        <Col>
-          <QueryForm/>
+        <Col style={{fontFamily: 'cambira', paddingLeft: '30px'}}>
+          <QueryForm handleFormSubmit={handleFormSubmit} handleFormChange={handleFormChange} mealType={mealType} prepTime={prepTime} intolerances={intolerances}/>
         </Col>
-        <Col>
+        {/* <Col>
           <MyRecipes myRecipes={myRecipes}/>
-        </Col>
+        </Col> */}
       </Row>
       <Row>
         {hasRecipes ? <RecipeList recipes={recipes}/> : <></>}
