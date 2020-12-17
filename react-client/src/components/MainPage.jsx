@@ -4,7 +4,7 @@ import RecipeList from './RecipeList.jsx';
 import MyRecipes from './MyRecipes.jsx';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-const MainPage = ({handleFormChange, handleFormSubmit, mealType, prepTime, intolerances, hasRecipes, recipes, myRecipes})=> {
+const MainPage = ({/*addRecipe*/ handleFormChange, handleFormSubmit, mealType, prepTime, intolerances, hasRecipes, recipes, myRecipes})=> {
   return (
     <>
       <Row>
@@ -16,7 +16,7 @@ const MainPage = ({handleFormChange, handleFormSubmit, mealType, prepTime, intol
         </Col> */}
       </Row>
       <Row>
-        {hasRecipes ? <RecipeList recipes={recipes}/> : <></>}
+        {hasRecipes ? <RecipeList /*addRecipe={addRecipe}*/ recipes={recipes}/> : <></>}
       </Row>
     </>
   );

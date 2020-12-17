@@ -2,7 +2,7 @@
 import { Card, Button, Figure, Container, Row, Col, Image } from 'react-bootstrap';
 import React from 'react';
 
-const RecipeItem = ({recipe})=> {
+const RecipeItem = ({/*addRecipe*/ recipe})=> {
 
   return (
     <Card style={{ width: '18rem' }}>
@@ -12,26 +12,9 @@ const RecipeItem = ({recipe})=> {
           {recipe.title}
         </Card.Text>
         <Button variant="dark">Get Recipe</Button>
+        <Button variant="warning" /*onClick={ addRecipe(recipe) }*/ >Add to My Recipes</Button>
       </Card.Body>
     </Card>
-    // <Col>
-    //   <Figure>
-    //     <Figure.Image
-    //       width={250}
-    //       height={300}
-    //       alt="171x180"
-    //       src={recipe.image}
-    //     />
-    //     <Figure.Caption>
-    //       {recipe.title}
-    //     </Figure.Caption>
-    //     {/*Insert recipe.url which will format in server*/}
-    //   </Figure>
-    //   <Row>
-    //     <Button variant="outline-dark">Get Recipe</Button>
-    //   </Row>
-    // </Col>
-
   );
 };
 export default RecipeItem;

@@ -23,10 +23,21 @@ class App extends React.Component {
     this.handleGetStarted = this.handleGetStarted.bind(this);
     this.handleFormChange = this.handleFormChange.bind(this);
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
+    // this.addRecipe = this.addRecipe.bind(this);
   }
   handleGetStarted () {
     this.setState({getStarted: true});
   }
+
+  // addRecipe (recipe) {
+  //   this.setState({myRecipes: this.state.myRecipes.push(recipe)}, ()=> {
+  //     console.log('myrecipes', this.state.myRecipes);
+  //   });
+  // }
+
+  // handleAddRecipe() {
+  // axios request to server to add data to mongoDB
+  // }
 
   handleFormChange (e) {
     const value = e.target.value;
@@ -49,7 +60,7 @@ class App extends React.Component {
   }
   render () {
     return (
-      this.state.getStarted ? <> <MainPage handleFormChange= {this.handleFormChange} handleFormSubmit={this.handleFormSubmit} mealType = {this.state.mealType} intolerances={this.state.intolerances} prepTime= {this.state.prepTime} hasRecipes={this.state.hasRecipes} recipes={this.state.recipes} myRecipes={this.state.myRecipes}/> </> : <> <HomePage handleGetStarted = {this.handleGetStarted} /> </>
+      this.state.getStarted ? <> <MainPage /*addRecipe = {this.addRecipe}*/ handleFormChange= {this.handleFormChange} handleFormSubmit={this.handleFormSubmit} mealType = {this.state.mealType} intolerances={this.state.intolerances} prepTime= {this.state.prepTime} hasRecipes={this.state.hasRecipes} recipes={this.state.recipes} myRecipes={this.state.myRecipes}/> </> : <> <HomePage handleGetStarted = {this.handleGetStarted} /> </>
     );
   }
 }
