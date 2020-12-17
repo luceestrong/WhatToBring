@@ -8,15 +8,26 @@ module.exports = {
     filename: 'bundle.js',
     path: DIST_DIR
   },
-  module : {
-    loaders : [
+  module: {
+    rules: [
       {
-        test : /\.jsx?/,
-        include : SRC_DIR,
-        loader : 'babel-loader',      
-        query: {
-          presets: ['react', 'es2015']
-       }
+        test: /\.jsx?/,
+        include: SRC_DIR,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react']
+          }
+        }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        include: SRC_DIR,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ]
       }
     ]
   }
