@@ -3,37 +3,32 @@ import ReactDOM from 'react-dom';
 import QueryForm from './components/QueryForm.jsx';
 import RecipeList from './components/RecipeList.jsx';
 import sampleData from './sampledata.jsx';
-import { Container, Row, Col } from 'react-bootstrap';
-import GetStarted from './components/GetStarted.jsx';
-
+import HomePage from './components/HomePage.jsx';
+import MainPage from './components/MainPage.jsx';
+import axios from 'axios';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      myRecipes: [],
+      hasRecipes: false,
+      recipes: sampleData,
+      getStarted: false
     };
+    this.handleGetStarted = this.handleGetStarted.bind(this);
+  }
+  handleGetStarted () {
+    this.setState({getStarted: true});
   }
 
+  getRecipes() {
+
+
+  }
   render () {
     return (
-      <>
-        <Row style={{justifyContent: 'center', fontFamily: 'candara', fontSize: '30px' }}>
-          ? What to Bring ?
-        </Row>
-        <Row style={{backgroundColor: '#000000'}}>
-            hi
-        </Row>
-        <Row style={{justifyContent: 'center', fontFamily: 'cambira', fontSize: '60px'}}>
-            Easy Recipes in Seconds!
-        </Row>
-        <Row style={{justifyContent: 'center', fontFamily: 'cambira', fontSize: '20px'}}>
-            Cooking for Friends should be fun and stress-free!
-        </Row>
-        <Row style= {{justifyContent: 'center'}}>
-          <GetStarted/>
-        </Row>
-      </>
+      this.state.getStarted ? <> <MainPage hasRecipes={this.state.hasRecipes} recipes={this.state.recipes} myRecipes={this.state.myRecipes}/> </> : <> <HomePage handleGetStarted = {this.handleGetStarted} /> </>
     );
   }
 }

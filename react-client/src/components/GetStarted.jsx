@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-const GetStarted = ()=> {
+const GetStarted = ({handleGetStarted})=> {
   return (
-    <Button variant="dark">Get Started</Button>
+    <Button variant="dark" onClick = {
+      handleGetStarted
+    }>Get Started</Button>
   );
 };
-
 export default GetStarted;

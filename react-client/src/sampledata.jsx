@@ -1,4 +1,4 @@
-export const sampleData = [
+const sampleData = [
   {
     'id': 664429,
     'title': 'Vegan Dirty Chai Pudding',
@@ -60,3 +60,5 @@ export const sampleData = [
     'imageType': 'jpg'
   }
 ];
+
+export default sampleData;
