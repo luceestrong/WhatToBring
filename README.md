@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+ development
+>>>>>>> 779e9a4345c5ac313553e0b40ad0db9e034cd7ce
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -18,7 +22,7 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    project_description
+    WhatToBring is a recipe search app created for users who need easy recipes in seconds to feed their friends. Users can search recipes based on food intolerances/allergies, meal type, and desired meal prep time.
     <br />
     <a href="https://github.com/luceestrong/WhatToBring"><strong>Explore the docs »</strong></a>
     <br />
@@ -68,7 +72,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`luceestrong`, `WhatToBring`, `Lucyyystrong`, `lucyarmstrong45@gmail.com`, `project_description`
+`luceestrong`, `WhatToBring`, `Lucyyystrong`, `lucyarmstrong45@gmail.com`, `WhatToBring is a recipe search app created for users who need easy recipes in seconds to feed their friends. Users can search recipes based on food intolerances/allergies, meal type, and desired meal prep time.   `
 
 
 ### Built With
