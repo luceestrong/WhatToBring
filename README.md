@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
- development
->>>>>>> 779e9a4345c5ac313553e0b40ad0db9e034cd7ce
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -72,9 +67,9 @@
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React Bootstrap](https://react-bootstrap.github.io/)
+* [Express](https://expressjs.com/)
+* [React](https://reactjs.org/)
 
 
 
