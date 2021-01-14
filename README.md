@@ -70,11 +70,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`luceestrong`, `WhatToBring`, `Lucyyystrong`, `lucyarmstrong45@gmail.com`, `WhatToBring is a recipe search app created for users who need easy recipes in seconds to feed their friends. Users can search recipes based on food intolerances/allergies, meal type, and desired meal prep time.   `
-
-
 ### Built With
 
 * []()
@@ -117,14 +112,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/luceestrong/WhatToBring/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -148,22 +135,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Lucyyystrong](https://twitter.com/Lucyyystrong) - lucyarmstrong45@gmail.com
+Lucy Armstrong -  https://www.linkedin.com/in/lucyarmstrong1/ - lucyarmstrong45@gmail.com - [@Lucyyystrong](https://twitter.com/Lucyyystrong)
 
 Project Link: [https://github.com/luceestrong/WhatToBring](https://github.com/luceestrong/WhatToBring)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
