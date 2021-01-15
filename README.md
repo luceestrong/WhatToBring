@@ -63,7 +63,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+**App Demo**
+<img src="react-client/src/assets/gifs/SearchApp.gif" alt="app demo">
+<br></br>
+
+**Home Page**
+<img src="react-client/src/assets/screenshots/HomePage" alt="home page">
+<br></br>
+**Recipe Search Page**
+<img src= "react-client/src/assets/screenshots/DrinkSearch" alt="search page">
 
 ### Built With
 
@@ -80,7 +88,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -96,15 +103,6 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTRIBUTING -->
@@ -124,8 +122,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact

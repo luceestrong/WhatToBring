@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import buratta from '../images/burratta.png';
-import friends from '../images/friends.png';
-import cookies from '../images/cookies.png';
-import orangesalad from '../images/orangesalad.png';
+import buratta from '../assets/images/burratta.png';
+import friends from '../assets/images/friends.png';
+import cookies from '../assets/images/cookies.png';
+import orangesalad from '../assets/images/orangesalad.png';
 
 const Images = ()=> {
   return (
