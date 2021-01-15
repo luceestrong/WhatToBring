@@ -24,7 +24,7 @@
     <br />
     <a href="https://github.com/luceestrong/WhatToBring">View Demo</a>
     ·
-    <a href="https://github.com/luceestrong/WhatToBring/issues">Report Bug</a>
+    <a href="https://github.com/luceestrong/WhatToBring/issues">WhatToBringrt Bug</a>
     ·
     <a href="https://github.com/luceestrong/WhatToBring/issues">Request Feature</a>
   </p>
@@ -88,7 +88,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Clone the repo
+1. Clone the WhatToBring
    ```sh
    git clone https://github.com/luceestrong/WhatToBring.git
    ```
@@ -136,15 +136,15 @@ Project Link: [https://github.com/luceestrong/WhatToBring](https://github.com/lu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/luceestrong/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/luceestrong/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/luceestrong/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/luceestrong/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/luceestrong/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/luceestrong/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/luceestrong/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/luceestrong/repo/issues
-[license-shield]: https://img.shields.io/github/license/luceestrong/repo.svg?style=for-the-badge
-[license-url]: https://github.com/luceestrong/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/luceestrong/WhatToBring.svg?style=for-the-badge
+[contributors-url]: https://github.com/luceestrong/WhatToBring/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/luceestrong/WhatToBring.svg?style=for-the-badge
+[forks-url]: https://github.com/luceestrong/WhatToBring/network/members
+[stars-shield]: https://img.shields.io/github/stars/luceestrong/WhatToBring.svg?style=for-the-badge
+[stars-url]: https://github.com/luceestrong/WhatToBring/stargazers
+[issues-shield]: https://img.shields.io/github/issues/luceestrong/WhatToBring.svg?style=for-the-badge
+[issues-url]: https://github.com/luceestrong/WhatToBring/issues
+[license-shield]: https://img.shields.io/github/license/luceestrong/WhatToBring.svg?style=for-the-badge
+[license-url]: https://github.com/luceestrong/WhatToBring/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/luceestrong
