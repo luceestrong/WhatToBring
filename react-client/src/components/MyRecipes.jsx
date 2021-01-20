@@ -1,10 +1,12 @@
 import React from 'react';
+import MyRecipe from './MyRecipe.jsx';
 
-const MyRecipes = ()=> {
+const MyRecipes = ({myRecipes})=> {
   return (
-    <>
-    My Recipes
-    </>
+    <></>
+    // myRecipes.length === 0 ? <> My Recipes </> : <> My Recipes {myRecipes.map((recipe)=> (
+    //   <MyRecipe recipe = {recipe}/>
+    // ))} </>
   );
 };
 export default MyRecipes;
