@@ -64,14 +64,14 @@
 ## About The Project
 
 **App Demo**
-<img src="react-client/src/assets/gifs/SearchApp.gif" alt="app demo">
+<img src="react-client/src/assets/gifs/SearchAppDemo.gif" alt="app demo">
 <br></br>
 
 **Home Page**
-<img src="react-client/src/assets/screenshots/HomePage" alt="home page">
+<img src="react-client/src/assets/screenshots/HomePage.png" alt="home page">
 <br></br>
 **Recipe Search Page**
-<img src= "react-client/src/assets/screenshots/DrinkSearch" alt="search page">
+<img src= "react-client/src/assets/screenshots/DrinkSearch.png" alt="search page">
 
 ### Built With
 
