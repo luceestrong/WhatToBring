@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/luceestrong/WhatToBring">
-    <img src="react-client/src/assets/images/Logo.png" alt="Logo" width="200" height="200">
+    <img src="react-client/src/assets/images/Logo.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center"></h3>
