@@ -24,7 +24,7 @@
     <br />
     <a href="https://github.com/luceestrong/WhatToBring">View Demo</a>
     ·
-    <a href="https://github.com/luceestrong/WhatToBring/issues">WhatToBringrt Bug</a>
+    <a href="https://github.com/luceestrong/WhatToBring/issues">WhatToBring Report Bug</a>
     ·
     <a href="https://github.com/luceestrong/WhatToBring/issues">Request Feature</a>
   </p>
